@@ -232,3 +232,227 @@ body {
         margin: 0.5rem 0;
     }
 }
+
+/* Responsive */
+@media (max-width: 992px) {
+    .logo-hero {
+        font-size: 3.5rem;
+    }
+    
+    .subtitle-hero {
+        font-size: 1.2rem;
+    }
+    
+    .TacosImg {
+        height: 350px;
+    }
+    
+    .hero-section .col-lg-6:last-child {
+        margin-top: 3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 0.5rem 0;
+    }
+    
+    .logo-text {
+        font-size: 1.8rem;
+    }
+    
+    .logo-subtitle {
+        font-size: 0.65rem;
+    }
+    
+    .logo-hero {
+        font-size: 3rem;
+    }
+    
+    .subtitle-hero {
+        font-size: 1.2rem;
+        letter-spacing: 2px;
+    }
+    
+    .nav-link {
+        margin: 0.5rem 1rem;
+        text-align: center;
+    }
+    
+    .hero-section {
+        padding-top: 100px;
+        padding-bottom: 80px;
+    }
+    
+    .hero-section .row {
+        min-height: auto !important;
+    }
+    
+    .hero-section .col-lg-6 {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    
+    .hero-section .col-6 {
+        width: 100% !important;
+        max-width: 100% !important;
+        flex: 0 0 100% !important;
+    }
+    
+    .TacosImg {
+        height: 300px;
+        width: 100%;
+    }
+    
+    #tacoCarousel {
+        width: 100%;
+    }
+    
+    .btn-lg {
+        padding: 0.7rem 1.8rem;
+        font-size: 1rem;
+    }
+    
+    .d-flex.gap-3 {
+        justify-content: center;
+    }
+    
+    .about-image-placeholder {
+        height: 300px;
+        margin-top: 2rem;
+    }
+    
+    .foodTruck {
+        width: 100%;
+    }
+    
+    .display-4 {
+        font-size: 2.5rem;
+    }
+    
+    .display-1 {
+        font-size: 3rem;
+    }
+    
+    .menu-card {
+        margin-bottom: 1rem;
+    }
+    
+    .contact-form {
+        margin-top: 2rem;
+    }
+    
+    .wave-divider {
+        height: 60px;
+    }
+}
+
+@media (max-width: 576px) {
+    .logo-text {
+        font-size: 1.5rem;
+    }
+    
+    .logo-subtitle {
+        font-size: 0.55rem;
+        letter-spacing: 1.5px;
+    }
+    
+    .logo-hero {
+        font-size: 2.5rem;
+    }
+    
+    .subtitle-hero {
+        font-size: 1rem;
+        letter-spacing: 1.5px;
+    }
+    
+    .lead {
+        font-size: 1rem;
+        margin-bottom: 2rem !important;
+    }
+    
+    .TacosImg {
+        height: 250px;
+    }
+    
+    .btn-lg {
+        padding: 0.6rem 1.5rem;
+        font-size: 0.95rem;
+    }
+    
+    .d-flex.gap-3 {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.8rem !important;
+    }
+    
+    .d-flex.gap-3 .btn {
+        width: 90%;
+        max-width: 300px;
+    }
+    
+    .about-image-placeholder {
+        height: 250px;
+    }
+    
+    .display-4 {
+        font-size: 2rem;
+    }
+    
+    .display-1 {
+        font-size: 2.5rem;
+    }
+    
+    .menu-icon {
+        font-size: 3rem;
+    }
+    
+    .menu-card {
+        padding: 1.5rem;
+    }
+    
+    .wave-divider {
+        height: 40px;
+    }
+    
+    .contact-info h5 {
+        font-size: 1rem;
+    }
+    
+    .contact-info p {
+        font-size: 0.9rem;
+    }
+    
+    .hero-section {
+        padding-top: 80px;
+        padding-bottom: 60px;
+    }
+    
+    section.py-5 {
+        padding-top: 3rem !important;
+        padding-bottom: 3rem !important;
+    }
+}
+
+@media (max-width: 400px) {
+    .logo-hero {
+        font-size: 2rem;
+    }
+    
+    .subtitle-hero {
+        font-size: 0.85rem;
+    }
+    
+    .TacosImg {
+        height: 200px;
+    }
+    
+    .menu-card {
+        padding: 1rem;
+    }
+    
+    .btn-lg {
+        padding: 0.5rem 1.2rem;
+        font-size: 0.9rem;
+    }
+}
